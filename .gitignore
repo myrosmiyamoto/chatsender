@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# build
+dist/
+
+# env files
+.env
+.env.local
+.env*.local
+
+# certs
+certs/
+
+# token cache
+token_cache.json
+
+# debug logs
+npm-debug.log*
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# editor
+.vscode/
+*.swp
+*.swo
