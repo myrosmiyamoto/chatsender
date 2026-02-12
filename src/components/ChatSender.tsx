@@ -72,7 +72,7 @@ export default function ChatSender() {
     setResults([]);
 
     try {
-      const res = await fetch("/api/send", {
+      const res = await fetch("/chatsender/api/send", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
