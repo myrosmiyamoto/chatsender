@@ -49,7 +49,7 @@ export default function ExcelUploader({ onParsed }: Props) {
 
       <div className="mb-3">
         <a
-          href="/template.xlsx"
+          href="/chatsender/template.xlsx"
           download
           className="text-sm text-blue-600 underline hover:text-blue-800"
         >
